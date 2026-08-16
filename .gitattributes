@@ -70,6 +70,10 @@
 Assets/Plugins/**           linguist-generated
 Packages/packages-lock.json linguist-generated
 
+# TextMesh Pro Essentials are imported engine assets, not project code.
+# Without this GitHub reports the repository language as ShaderLab.
+Assets/TextMesh*/**         linguist-vendored
+
 # Unity LFS
 *.cubemap               lfs
 *.unitypackage          lfs

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6355cd9442ad4e8c9c4712fd23be426, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: ZooWorld::ZooWorld.Core.GameSettings
+  _spawnIntervalMinSeconds: 1
+  _spawnIntervalMaxSeconds: 2
+  _animals:
+  - {fileID: 11400000, guid: 392aa15a09da544519775db2e6ac2112, type: 2}
+  - {fileID: 11400000, guid: 16d040144bc95456e9396622f03c75b4, type: 2}
